@@ -29,6 +29,7 @@ function Assert-Error {
 }
 
 function Initialize-TagData {
+import Az.account
     param (
         $inTags,
         $tagMap,
