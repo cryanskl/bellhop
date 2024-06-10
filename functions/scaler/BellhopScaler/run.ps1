@@ -1,4 +1,6 @@
 # Input bindings are passed in via param block.
+import Az.account
+
 param($QueueItem, $TriggerMetadata)
 
 function Assert-Error {
